@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA6B83A6-6458-49BC-90F3-E1D3DA75F085}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>pinoyhenyo</RootNamespace>
+    <AssemblyName>pinoyhenyo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.6.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.6.4\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.6.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.6.4\Assemblies\v4.0\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.6.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.6.4\Assemblies\v4.0\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White_square_with_question_mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White_square_with_question_mark1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happyspongebob.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patrick.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebob 7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebob.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebob.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebob1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebob2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebob3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebob4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebob6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobcowboy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobcowboy2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobcute.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobdance.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobgallery.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobhalloween.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobimage.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongeboblove.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobpic.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobpic2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobpicture.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobsquarepants.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobwebsite.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebobwinner.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_lnpi1e0Sjx1qbaxlqo1_400.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spongebob_movie_mation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spongebob_movie_mation %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_l5rubyomej1qaqps8o1_r2_500.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oie_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,21 @@
+C:\Users\JACOB\Desktop\pinoyhenyo\pinoyhenyo\bin\Debug\pinoyhenyo.exe
+C:\Users\JACOB\Desktop\pinoyhenyo\pinoyhenyo\bin\Debug\pinoyhenyo.pdb
+C:\Users\JACOB\Desktop\pinoyhenyo\pinoyhenyo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\JACOB\Desktop\pinoyhenyo\pinoyhenyo\obj\x86\Debug\pinoyhenyo.Form1.resources
+C:\Users\JACOB\Desktop\pinoyhenyo\pinoyhenyo\obj\x86\Debug\pinoyhenyo.Properties.Resources.resources
+C:\Users\JACOB\Desktop\pinoyhenyo\pinoyhenyo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\JACOB\Desktop\pinoyhenyo\pinoyhenyo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\JACOB\Desktop\pinoyhenyo\pinoyhenyo\obj\x86\Debug\pinoyhenyo.exe
+C:\Users\JACOB\Desktop\pinoyhenyo\pinoyhenyo\obj\x86\Debug\pinoyhenyo.pdb
+K:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\obj\x86\Debug\pinoyhenyo.exe
+K:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\obj\x86\Debug\pinoyhenyo.pdb
+F:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\obj\x86\Debug\pinoyhenyo.exe
+F:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\obj\x86\Debug\pinoyhenyo.pdb
+F:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\obj\x86\Debug\pinoyhenyo.Form2.resources
+F:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\obj\x86\Debug\pinoyhenyo.Properties.Resources.resources
+F:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\bin\Debug\pinoyhenyo.exe
+F:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\bin\Debug\pinoyhenyo.pdb
+F:\Pnoyhenyo (updated)\pinoyhenyo(updated)\pinoyhenyo\obj\x86\Debug\pinoyhenyo.Form3.resources
